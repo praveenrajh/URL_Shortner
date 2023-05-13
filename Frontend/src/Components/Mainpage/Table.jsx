@@ -265,9 +265,7 @@ export function AllocationTableComp() {
             background: 'black',
           }}
         >
-          <marquee direction='right' behavior='alternate'>
-            Created by Dineshraj 😉
-          </marquee>
+       
         </div>
       </div>
     </div>
