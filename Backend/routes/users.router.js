@@ -19,7 +19,7 @@ import sendEmail from '../utils/sendEmail.js';
 const router = express.Router();
 
 //!below api is foront end api to use to send mail.
-const API = 'http://localhost:5174';
+const API = 'https://incandescent-sundae-79e2f3.netlify.app/';
 router.post('/signup', express.json(), async function (request, response) {
   const { email, password, firstName, lastName } = request.body;
   const hashedPassword = await generateHashedPassword(password);
